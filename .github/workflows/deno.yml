@@ -19,6 +19,7 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
+    environment: Dev
 
     steps:
       - name: Setup repo
@@ -29,10 +30,6 @@ jobs:
         with:
           deno-version: v2.x
 
-      # Uncomment this step to verify the use of 'deno fmt' on each commit.
-      # - name: Verify formatting
-      #   run: deno fmt --check
-
       - name: Run linter
         run: deno lint
 
@@ -42,6 +39,6 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "scotland-yard-think-sync"
+          project: "atulrwt23-scotland-ya-59"
           entrypoint: "main.ts"
           root: "."
