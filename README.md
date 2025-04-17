@@ -1,6 +1,6 @@
 # 🕵️ Scotland Yard - Think Sync
 
-Welcome to **Scotland Yard**, a thrilling digital adaptation of the classic
+Welcome  to **Scotland Yard**, a thrilling digital adaptation of the classic
 detective board game! Set in the heart of **London**, this strategic multiplayer
 game pits one elusive criminal—**Mr.X**—against a team of clever detectives in a
 suspenseful city-wide chase.
